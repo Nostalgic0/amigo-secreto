@@ -1,0 +1,30 @@
+/* styles.css */
+:root {
+    --surface-ground: #0f0404;
+    --surface-section: #262626;
+    --surface-card: #1e1e1e;
+    --surface-overlay: #2d2d2d;
+    --surface-border: #404040;
+    --text-color: #f8f9fa;
+    --text-color-secondary: #dee2e6;
+}
+
+html, body {
+    background-color: var(--surface-ground) !important;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+app-root {
+    display: block;
+    min-height: 100vh;
+    background-color: var(--surface-ground);
+}
+
+/* Elimina este selector que está sobrescribiendo todos los estilos
+* {
+    background-color: var(--surface-ground);
+}
+*/

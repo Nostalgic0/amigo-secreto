@@ -1,0 +1,28 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+}
+
+.p-inputgroup {
+    margin-bottom: 1.5rem;
+}
+
+/* Update button container styles */
+:host ::ng-deep .button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
+
+/* Remove margin-left auto since we're using justify-content-end */
+:host ::ng-deep .p-button {
+    margin: 0;
+}
+
+::ng-deep textarea{
+    background: #111827;
+
+}

@@ -1,0 +1,42 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar directorios de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de compilación
+dist/
+build/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales
+*.tmp
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
